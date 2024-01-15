@@ -1,5 +1,5 @@
-# Web Development Trends - Git and Github Lab
+# Web Development Trends - Environments Lab
 
-This is my first lab of Web Development Trends - Git and Github Lab.
+This is my second branch of Web Development Trends - Environments Lab.
 
 Silvio dos Santos Junior

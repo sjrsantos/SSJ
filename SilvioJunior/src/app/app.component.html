@@ -1,0 +1,23 @@
+<div *ngIf="data">
+  <header><h1>Silvio Junior - Rest API Lab</h1></header>
+  <table>
+    <tr>
+      <th>Brand</th>
+      <th>Product Name</th>
+      <th>Cost Price</th>
+      <th>MSRP</th>
+      <th>Qty On Hand</th>
+      <th>Qty On Back Order</th>
+      <th>Description</th>
+    </tr>
+    <tr *ngFor="let duck of data">
+      <td>{{ duck.brand }}</td>
+      <td>{{ duck.ProductName }}</td>
+      <td>{{ duck.CostPrice }}</td>
+      <td>{{ duck.MSrP }}</td>
+      <td>{{ duck.QtyOnHand }}</td>
+      <td>{{ duck.QtyOnBackOrder }}</td>
+      <td>{{ duck.Description }}</td>
+    </tr>
+  </table>
+</div>
